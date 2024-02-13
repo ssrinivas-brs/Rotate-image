@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+    <title>Rotate image</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="ReactTitle ">
+              <h3> Rotate image </h3>
+             
+            </div>
+    </header>
+    <main role="main" class="container" style="margin-bottom: 100px;">
+        <div class="contains">
+            <p> <p>This function first transposes the matrix, which means that it swaps the rows and columns. Then, 
+                it reverses each row of the transposed matrix. This results in a matrix that is rotated 90 degrees clockwise.</p></p>
+       
+        <div id="matrixContainer">
+    <h4>Matrix Rotation</h4>
+    <div id="matrixInput">
+        <label for="matrix">Enter Matrix:</label>
+        <textarea id="matrix" rows="4" cols="30" 
+        ></textarea>
+        <button  type="button" class="btn btn-info  " id="matrix" onclick="rotateMatrix()">Rotate Matrix</button>
+        <div id="rotatedMatrix"></div>
+
+       </div>
+       </div>
+</div>
+
+    </main>
+    <footer class="footer footer-dark">
+        <div class="d-flex justify-content-center px-5">
+          <div>
+            <button
+              onclick="setTheme('#1A4B84')"
+              class="theme-switch theme-switch-chathams_blue"
+            ></button>
+            <button
+              onclick="setTheme('#991E14')"
+              class="theme-switch theme-switch-tamarillo"
+            ></button>
+            <button
+              onclick="setTheme('#FEAD06')"
+              class="theme-switch theme-switch-yellow_sea"
+            ></button>
+          </div>
+        </div>
+      </footer>
+    
+    
+      
+<script src="assets/js/Rotate image.js"></script>
+</body>
+</html>
